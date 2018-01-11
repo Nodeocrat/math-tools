@@ -1,4 +1,4 @@
-function polarToCartesian(theta, radius){
+const polarToCartesian = (theta, radius) => {
   return {
     x: radius*Math.cos(theta),
     y: radius*Math.sin(theta)
